@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>table</title>
+    <style>
+      th, td { border: 1px solid; }
+    </style> <!-- 테두리 생성 -->
+  </head>
+  <body>
+    <h1>표 만들기</h1>
+    <table> <!-- table은 표 -->
+      <caption><b><i>표의 제목</i></b></caption>
+      <thead>
+        <th>행/열</th>
+        <th>열 이름1</th>
+        <th>열 이름2</th>
+        <th>열 이름3</th>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="4">sum</td> <!-- colspan의 숫자만큼 가로방향(컬럼방향) 행 병합 -->
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr> <!-- tr은 행 -->
+            <td>Mon</td> <!-- td는 셀 -->
+            <td rowspan="4">병합</td> <!-- rowspan의 숫자만큼 세로방향(행방향) 병합 -->
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Tues</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Wed</td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Thur</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+      </tbody>
+    </table>
+  </body><br>
+  <br>
+  <body>
+    <table>
+      <caption>Specification values</caption>
+      <thead>
+        <tr>
+          <th rowspan="2"><b>Grade.</b></th>
+          <th rowspan="2"><b>Point.</b></th>
+          <th colspan="2"><b>Strength.</b></th>
+          <th rowspan="2"><b>Percent.</b></th>
+        </tr>
+        <tr>
+          <th><b>kg/mm</b></th>
+          <th><b>lb/in</b></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hard</td>
+          <td>0.45</td>
+          <td>56.2</td>
+          <td>80,000</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Medium</td>
+          <td>0.45</td>
+          <td>49.2</td>
+          <td>70,000</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Soft</td>
+          <td>0.45</td>
+          <td>42.2</td>
+          <td>60,000</td>
+          <td>30</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
