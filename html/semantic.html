@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>semantic</title>
+  </head>
+  <body>
+    <!-- 시멘틱 마크업은 HTML의 구조를 적절히 표현하기 위한 것 -->
+    <b>굵은</b> vs <strong>중요한</strong><br>
+    <i>기울어진</i> vs <em>강조하는</em><br>
+    <u>밑줄친</u> vs <ins>새롭게 추가된</ins><br>
+    <s>중간선이 있는</s> vs <del>삭제된</del><br>
+    <h1>다른 시멘틱 요소</h1>
+    <h2>1. article</h2>
+    <article>
+      <h3>기사 제목</h3>
+      <p>내용</p>
+    </article>
+    <h2>2. aside</h2>
+    <p>서피스 고(Surface Go)를 이용해 작업을 한 지도 벌써 한 달이 다 돼가네요. 하나씩 이야기를 풀어야 하는데, 뭐부터 풀어야 할까... 고민하다가 가장 먼저 자극적인 제목을 내걸어봤습니다.
+       서피스 고는 태블릿으로서 아쉬운 기기입니다. 그리고 이는 기기 자체의 문제라기보다는 소프트웨어인 윈도우10에 기반한 문제가 많습니다. 어떤 점이 아쉬웠는지를 정리해봤습니다.
+       출처: https://reinia.net/2451 [레이니아]</p>
+
+    <aside>
+      <p>한참은 부족한 화상 키보드
+         가장 먼저 키보드의 부재를 꼽고 싶습니다. 윈도우10에 화상 키보드가 없는 건 아닙니다. 아니, 화상 키보드는 윈도우에서 오랜 역사와 전통을 갖춘 입력 방식이자, 훌륭한 보조 입력 도구입니다.</p>
+    </aside>
+
+    <p>문제는 화상 키보드가 마음처럼 등장하지 않는다는 점입니다. 우선 화상 키보드를 불러와야 할 때, 그 동작이 민첩하지 않습니다. 허공에 붕 뜬 화면을 몇 번씩 눌러줘야 그제야 반응합니다.
+       출처: https://reinia.net/2451 [레이니아]</p>
+    <h2>3. summary/details</h2>
+      <details>
+        <summary>details</summary>
+        1. toggle list를 만들 수 있다.<br>
+        2. toggle list
+      </details>
+    <h2>4. figure/figcaption</h2>
+      <figure>
+        <img src="https://i.pinimg.com/236x/7c/d3/5e/7cd35e5a72111c0a8644608ff9117f3a.jpg" alt="아이폰 배경화면">
+        <figcaption>iphone wallpaper</figcaption>
+      </figure>
+    <h2>5. footer</h2>
+      <footer><p>@ 2020 TK</p></footer>
+    <h2>6. mark</h2>
+      <p>그리고 <mark>키보드 레이아웃</mark>이 아름답지 않습니다. </p>
+    <h2>7. nav</h2>
+      <nav class="section">
+        <ol>
+          <li class="section">nav는 페이지 섹션을</li>
+          <li class="section">나눠주는 역할을 한다.</li>
+          <li class="section">이렇게 말이지</li>
+        </ol>
+      </nav>
+        <p>다양한 레이아웃을 지원하긴 하는데요. 태블릿에 주류로 탑재된 모바일 OS의 레이아웃과 다른 디자인이 혼란스럽습니다.
+        출처: https://reinia.net/2451 [레이니아]</p>
+      <h2>8. time</h2>
+        <p>time은 시간을 나타낼 때 사용하는 시멘틱 요소이다.</p>
+        <p>오늘은 <time datetime="2020-12-16">December 16</time>입니다.</p>
+        <p>현재 시간은 <time datetime="02:05">02:05</time>입니다.</p>
+  </body>
+</html>
