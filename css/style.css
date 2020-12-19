@@ -1,3 +1,15 @@
 p {
-  color: gray;
+  background-color: black;
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-size: 50px;
+  background-image: url(https://i.pinimg.com/originals/b1/9b/8c/b19b8c28b1f846bf71c35bf83715c815.png);
 }
+
+/* 축약형 사용시
+p {
+  background:  green url() no-repeat fixed center;
+}
+*/
