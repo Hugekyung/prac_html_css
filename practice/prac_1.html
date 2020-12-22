@@ -26,12 +26,34 @@
             <p>form 요소는 설문조사 페이지와 비슷하다고 보면 된다.</p>
             <div class="basic_forms">
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>fieldset: form의 영역을 구분해준다.</li>
+                <li>label: input-type-id와 같은 내용을 적음으로써 텍스트와 폼을 연동한다.</li>
+                <li>input: 'text', 'submit', 'radio', 'password', 'reset', 'button' 등 다양한 type으로 활용된다.</li>
+                <ul>
+                  <li>input-type:"text" 텍스트 작성 폼</li>
+                    <label for="userid">(예)아이디: </label><input type="text" placeholder="아이디" id="userid"><br>
+                  <li>input-type:"password" 비밀번호 작성 폼</li>
+                    <label for="password">(예)비밀번호: </label><input type="password" placeholder="비밀번호" id="password"><br>
+                  <li>input-type:"radio" 중복선택이 불가한 선택 폼</li>
+                    (예)성별: <label for="male">남자</label> <input type="radio" name="gender" id="male" checked>
+                    <label for="female">여자</label> <input type="radio" name="gender" id="female"><br>
+                  <li>input-type:"checkbox" 중복선택이 가능한 선택 폼</li>
+                    <legend><부가정보></legend>
+                    (예)취미: 러닝<input type="checkbox" name="hobby" checked>
+                    등산<input type="checkbox" name="hobby">
+                    헬스<input type="checkbox" name="hobby">
+                    음악감상<input type="checkbox" name="hobby"><br>
+                  <li>input-type:"file" 파일 업로드 폼</li>
+                    (예)사진 업로드: <input type="file"><br>
+                  <li>input-type:"submit" 전송 폼(==button-type:"submit")</li>
+                    (예)input: <input type="submit" value="전송"> / button: <button type="submit">전송</button>
+                  <li>input-type:"reset" 취소 폼(==button-type:"reset")</li>
+                  <li>input-type:"button" 등록 폼</li>
+                  <li>input-type:"image" 이미지 등록 폼</li>
+                </ul><br>
+                <li>select: option태그를 통해 내부 내용을 추가할 수 있는 선택 폼</li>
+                <li>textarea: text를 작성할 수 있는 폼(row, cols를 통해 가로 세로 크기 지정)</li>
+
               </ul>
             </div>
         </div>
