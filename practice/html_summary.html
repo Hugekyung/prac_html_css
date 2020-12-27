@@ -68,13 +68,66 @@
                     </div>
                   </div>
               </ul>
-            </div>
+            <br><br>
             <h3 id="title_3">3. image</h3>
             <div class="image" style="background-color: orange;">
               <ul>
                 <li>이미지는 절대경로와 상대경로로 설정한다.</li>
                 <img src="C:\Users\haech\Desktop\pinterest/이주영1.jfif" alt="이주영" style="width: 200px; height: 300px; margin-top: 1rem;">
               </ul>
+            </div>
+            <h3 id="title_4">4. semantic</h3>
+            <div class="semantic">
+              <ul>
+                <li>굵은(b) vs 중요한(strong)</li>
+                (예) <b>굵은</b> | <strong>중요한</strong>
+                <li>기울어진(i) vs 강조하는(em)</li>
+                (예) <i>기울어진</i> | <em>강조하는</em>
+                <li>밑줄친(u) vs 새롭게 추가된(ins)</li>
+                (예) <u>밑줄친</u> | <ins>새롭게 추가된</ins>
+                <li>중간선(s) vs 삭제된(del)</li>
+                (예) <s>중간선</s> | <del>삭제된</del>
+              </ul>
+            </div>
+            <h3 id="title_5">5. table</h3>
+            <div class="table">
+              <ul>
+                <h5>표 만들기</h5>
+                <li>table/thead/tfoot/tbody/th(열)/tr(행)/td(셀)로 이루어져 있다.</li>
+                <li>colspan: 가로방향(열방향) 병합</li>
+                <li>rowspan: 세로방향(행방향) 병합</li>
+              </ul>
+              (예) <h4>Table</h4>
+              <table style="text-align: center;">
+                <style media="screen">
+                  th, td { border: 1px solid;}
+                </style>
+                <caption>table title</caption>
+                <thead>
+                  <th>행/열</th>
+                  <th>열 이름 1</th>
+                  <th>열 이름 2</th>
+                  <th>열 이름 3</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>행 이름 1</td>
+                    <td>셀 2</td>
+                    <td>셀 3</td>
+                    <td>셀 4</td>
+                  </tr>
+                  <tr>
+                    <td>행 이름 2</td>
+                    <td>셀 2</td>
+                    <td>셀 3</td>
+                    <td>셀 4</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <td colspan="2">sum</td>
+                </tfoot>
+              </table>
+
             </div>
 
         </div>
